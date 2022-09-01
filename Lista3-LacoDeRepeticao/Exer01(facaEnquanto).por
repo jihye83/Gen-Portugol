@@ -7,7 +7,7 @@ programa
 	 *    contando de 3 em 3 quando estiver entre 300 e 400 e de 5 em 5 quando não estiver.
 	 */
 	{
-		inteiro count=0, num = 233
+		inteiro num = 233
 		
 		escreva("\n numero: ", num)	
 		
@@ -31,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 543; 
+ * @POSICAO-CURSOR = 269; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
