@@ -10,7 +10,8 @@ programa
 	 *    negativo.
 	 */
 	{
-		inteiro soma=0, num
+		inteiro soma=0, num, count=0
+		real media
 
 		escreva("\nEscreva um número: ")
 		leia (num)
@@ -19,9 +20,12 @@ programa
 			soma += num
 			escreva("\nEscreva um número: ")
 			leia (num)
+			count++
 		}
-
-		escreva("\nA soma dos numeros digitados é: ", soma)
+		media = soma / count
+		escreva("\nContador ", count)
+		escreva("\nMedia ", media)
+		escreva("\nSoma ", soma)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -29,7 +33,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 505; 
+ * @POSICAO-CURSOR = 654; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
