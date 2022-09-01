@@ -9,8 +9,26 @@ programa
 	 * de x e y
 	 */
 	{
-		inteiro A, B, C, D, E, F, X, Y
-		
+		inteiro A, B, C, D, E, F
+		real X, Y
+
+		escreva("\nDigite um numero para a: ")
+		leia (A)
+		escreva("\nDigite um numero para b: ")
+		leia (B)
+		escreva("\nDigite um numero para c: ")
+		leia (C)
+		escreva("\nDigite um numero para d: ")
+		leia (D)
+		escreva("\nDigite um numero para e: ")
+		leia (E)
+		escreva("\nDigite um numero para f: ")
+		leia (F)
+
+		X = ((C*E) - (B*F))/((A*E) - (C*B))
+		Y = ((A*F) - (C*D))/((A*E) - (C*D))
+
+		escreva("Os valores de x é: ", X, " e o valor do y é ", Y)
 		
 	}
 }
@@ -19,7 +37,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 353; 
+ * @POSICAO-CURSOR = 612; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -8,17 +8,16 @@ programa
 	 *    digita 5, deveremos observar na tela a seguinte sequência: 5 15 45 135.
 	 */
 	{
-		inteiro num, valor, i=0
+		inteiro num, valor
 
 		escreva("\nDigite um numero: ")
 		leia(num)
 		enquanto(num < 100){
 			escreva(" ", num)
 			num = num * 3			
-			i++
 		}
-
 		escreva(" ",num)
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -26,7 +25,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 474; 
+ * @POSICAO-CURSOR = 459; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

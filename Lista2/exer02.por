@@ -10,7 +10,24 @@ programa
 	 * imprimir o salário total e o salário excedente.
 	 */
 	{
-		escreva("Olá Mundo")
+		inteiro n
+		real salarioSemExtra  = 0.0, excesso = 0.0, salarioComExtra =0.0
+		escreva("\nDigite hora trabalhada: ")
+		leia(n)
+
+		se(n <= 50){
+			salarioSemExtra = n * 10.0
+			escreva("\nSeu Salario é: ", salarioSemExtra)
+		}
+		se(n > 50){
+			excesso  = n - 50.0
+			salarioComExtra = (excesso * 20.0) + (50.0 * 10.0)
+			escreva("\nSeu Salario é: ", salarioComExtra)
+		}senao{
+			excesso = 0.0
+			escreva("\nNao possue hora extra: ", excesso)
+		}
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -18,7 +35,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 419; 
+ * @POSICAO-CURSOR = 865; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
