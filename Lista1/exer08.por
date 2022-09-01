@@ -10,7 +10,14 @@ programa
 	 * custo ao consumidor.
 	 */
 	{
-		escreva("Olá Mundo")
+		real custoCons, custoFabrica
+
+		escreva("\nDigite o custo do carro de fábrica: ")
+		leia(custoFabrica)
+
+		custoCons = custoFabrica + (custoFabrica*0.28) + (custoFabrica*0.45)
+
+		escreva("\nO custo do consumidor é de: ", custoCons)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -18,7 +25,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 417; 
+ * @POSICAO-CURSOR = 633; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
