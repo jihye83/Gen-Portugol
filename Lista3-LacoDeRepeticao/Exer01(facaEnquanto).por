@@ -8,11 +8,12 @@ programa
 	 */
 	{
 		inteiro count=0, num = 233
-
-		faca{
-
-			se (num <300){
-				num++
+		
+		escreva("\n numero: ", num)	
+		
+		faca{		
+			se (num <= 300){
+				num += 5
 				escreva("\n numero: ", num)
 			}senao se((num >= 300) e (num <= 400)){
  				 num += 3
@@ -20,8 +21,7 @@ programa
 			}senao{
 				num += 5
 				escreva("\n numero: ", num)
-			}
-			
+			}			
 		}enquanto (num <= 456)
 		
 	}
@@ -31,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 354; 
+ * @POSICAO-CURSOR = 543; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
