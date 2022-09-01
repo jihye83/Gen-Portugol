@@ -11,10 +11,10 @@ programa
 	 *c) maior salário;
 	 *d) percentual de pessoas com salário até R$100,00.
 	 */
-		inteiro i, count
+		inteiro i, count=0
 		real sal, numFilho, mediaSal,somaSal=0.0, mediaNumFilho, somaFilho=0, maiorSal=0, percentual=0
 
-		para(i=1; i<=3; i++){
+		para(i=1; i<=4; i++){
 			escreva("\nDigite seu salario: ")
 			leia(sal)
 			escreva("\nDigite quantos filhos vc possue: ")
@@ -24,18 +24,18 @@ programa
 			somaFilho += numFilho
 
 			se(sal <= 100){
-				 count=i
-				 percentual = (count*100)/3	 
+				 count++			 	 
 			}
 			se(maiorSal<= sal){
 				maiorSal = sal
 			}
 			
 		}
-
-		mediaSal = somaSal/3
+		
+		percentual = (count*100)/4
+		mediaSal = somaSal/4
 		escreva("\n media sal ", mediaSal)
-		mediaNumFilho = somaFilho/3
+		mediaNumFilho = somaFilho/4
 		escreva("\n media de filhos ", mediaNumFilho)
 		escreva("\n Maior salario: ", maiorSal)
 		escreva("\n Percentual: ", percentual, "%")
@@ -47,7 +47,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 786; 
+ * @POSICAO-CURSOR = 758; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
