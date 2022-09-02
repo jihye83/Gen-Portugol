@@ -9,8 +9,6 @@ programa
 	{
 		inteiro num = 233
 		
-		escreva("\nDigite um numero: ", num)	
-		
 		faca{		
 			se((num >= 300) e (num <= 400)){
  				escreva("\n numero: ", num)
@@ -28,7 +26,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 425; 
+ * @POSICAO-CURSOR = 227; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
