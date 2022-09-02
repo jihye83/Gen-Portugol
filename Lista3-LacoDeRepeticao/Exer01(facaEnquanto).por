@@ -9,18 +9,15 @@ programa
 	{
 		inteiro num = 233
 		
-		escreva("\n numero: ", num)	
+		escreva("\nDigite um numero: ", num)	
 		
 		faca{		
-			se (num <= 299){
-				num += 5
-				escreva("\n numero: ", num)
-			}senao se((num >= 300) e (num <= 400)){
- 				num += 3
-				escreva("\n numero: ", num)
+			se((num >= 300) e (num <= 400)){
+ 				escreva("\n numero: ", num)
+ 				num += 3			
 			}senao{
-				num += 5
 				escreva("\n numero: ", num)
+				num += 5				
 			}			
 		}enquanto (num <= 456)
 		
@@ -31,7 +28,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 401; 
+ * @POSICAO-CURSOR = 425; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
