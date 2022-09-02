@@ -28,6 +28,7 @@ programa
 			escreva("\nTodas as três industrias terão as suas atividades suspendidas")
 		}senao{
 			escreva("\nDigite o indice valido.")
+			//caso o usuario digite o indice nao existente
 		}
 				
 	}
@@ -37,7 +38,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1319; 
+ * @POSICAO-CURSOR = 1361; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
