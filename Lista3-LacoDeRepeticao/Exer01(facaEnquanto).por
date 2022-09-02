@@ -16,8 +16,8 @@ programa
 				num += 5
 				escreva("\n numero: ", num)
 			}senao se((num >= 300) e (num <= 400)){
- 				 num += 3
-				 escreva("\n numero: ", num)
+ 				num += 3
+				escreva("\n numero: ", num)
 			}senao{
 				num += 5
 				escreva("\n numero: ", num)
@@ -31,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 292; 
+ * @POSICAO-CURSOR = 401; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
