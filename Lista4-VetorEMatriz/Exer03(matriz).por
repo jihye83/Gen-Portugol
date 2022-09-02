@@ -15,10 +15,13 @@ programa
 			   m1[4][6], 
 			   m2[4][6], 
 			   i, j
-		// somando as mesmas posicoes da matriz n1 e n2 e colocando na matriz 1
+		
 		para(i = 0; i < 4; i++){
 			para(j = 0; j < 6; j++){
-			m1[i][j] = n1[i][j] + n2[i][j]			
+			// somando as mesmas posicoes da matriz n1 e n2 e colocando na matriz 1
+			m1[i][j] = n1[i][j] + n2[i][j]
+			//achar a diferença da matriz n1 e n2 e colocando na matriz 2
+			m2[i][j] = n1[i][j] - n2[i][j]			
 			}
 		}
 		// imprimindo os dados somados
@@ -28,12 +31,6 @@ programa
 				escreva(m1[i][j], " ")						
 			}
 			escreva("\n")
-		}
-		//achar a diferença da matriz n1 e n2 e colocando na matriz 2
-		para(i = 0; i < 4; i++){
-			para(j = 0; j < 6; j++){
-			m2[i][j] = n1[i][j] - n2[i][j]			
-			}
 		}
 		//imprimindo os dados da diferença
 		escreva("Matriz 2: \n")
@@ -51,7 +48,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1149; 
+ * @POSICAO-CURSOR = 688; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
