@@ -36,7 +36,7 @@ programa
 			}
 		}
 		//imprimindo os dados da diferença
-		escreva("Matriz 1: \n")
+		escreva("Matriz 2: \n")
 		para(i = 0; i < 4; i++){
 			para(j = 0; j < 6; j++){
 				escreva(m2[i][j], " ")						
@@ -51,7 +51,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1155; 
+ * @POSICAO-CURSOR = 1149; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
