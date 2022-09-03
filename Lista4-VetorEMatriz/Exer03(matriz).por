@@ -10,11 +10,20 @@ programa
       *    posição das matrizes N1 e N2.
 	 */
 	{
-		inteiro n1[4][6] = {{1,2,3,4,5,6},{1,2,3,4,5,6},{1,2,3,4,5,6},{1,2,3,4,5,6}},
-			n2[4][6] = {{3,2,3,7,5,6},{4,5,3,4,5,6},{9,8,3,4,5,6},{3,7,3,4,5,6}},
-			m1[4][6], 
-			m2[4][6], 
-			i, j
+		inteiro n1[4][6], n2[4][6], m1[4][6], m2[4][6], i, j
+		
+		para(i = 0; i < 4; i++){
+			para(j = 0; j < 6; j++){
+				escreva("\nDigite os valores para matriz n1: ")
+				leia(n1[i][j])
+			}
+		}
+		para(i = 0; i < 4; i++){
+			para(j = 0; j < 6; j++){
+				escreva("\nDigite os valores para matriz n2: ")
+				leia(n2[i][j])
+			}
+		}
 		
 		para(i = 0; i < 4; i++){
 			para(j = 0; j < 6; j++){
@@ -48,7 +57,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 557; 
+ * @POSICAO-CURSOR = 427; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
