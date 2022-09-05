@@ -1,7 +1,5 @@
 programa
 {
-	
-	funcao inicio()
 	/*
 	 * 3. Escreve um programa que lê duas matrizes N1 (4,6) e N2(4,6) e cria:
       *    a) Uma matriz M1 cujos elementos serão as somas dos elementos de mesma posição
@@ -9,7 +7,18 @@ programa
       *    b) Uma matriz M2 cujos elementos serão as diferenças dos elementos de mesma
       *    posição das matrizes N1 e N2.
 	 */
-	{
+
+	//funcao para imprimir
+	funcao imprima(inteiro m[][]){
+		para(inteiro i = 0; i < 4; i++){
+			para(inteiro j = 0; j < 6; j++){
+				escreva( m[i][j], " ")						
+			}
+			escreva("\n")
+		}		
+	}
+	funcao inicio(){
+	
 		inteiro n1[4][6], n2[4][6], m1[4][6], m2[4][6], i, j
 		
 		para(i = 0; i < 4; i++){
@@ -35,21 +44,10 @@ programa
 		}
 		// imprimindo os dados somados
 		escreva("Matriz 1: \n")
-		para(i = 0; i < 4; i++){
-			para(j = 0; j < 6; j++){						
-				escreva(m1[i][j], " ")						
-			}
-			escreva("\n")
-		}
+		imprima(m1)
 		//imprimindo os dados da diferença
 		escreva("Matriz 2: \n")
-		para(i = 0; i < 4; i++){
-			para(j = 0; j < 6; j++){
-				escreva( m2[i][j], " ")						
-			}
-			escreva("\n")
-		}		
-		
+		imprima(m2)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -57,7 +55,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 452; 
+ * @POSICAO-CURSOR = 1324; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
